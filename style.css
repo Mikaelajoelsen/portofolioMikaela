@@ -9,6 +9,11 @@ header {
   height: 60em;
 }
 
+h1 {
+  display: flex;
+  margin-left: 2em;
+}
+
 h2 {
   display: flex;
   justify-content: center;
@@ -68,6 +73,7 @@ a {
 .project {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 20px;
   border: 5px solid black;
@@ -107,12 +113,6 @@ h3 {
   color: #fff;
 }
 
-footer {
-  background-color: #f2f2f2;
-  padding: 20px;
-  text-align: center;
-}
-
 .social-icons {
   display: flex;
   justify-content: center;
@@ -128,6 +128,20 @@ footer {
 }
 
 p {
+  display: flex;
+  justify-content: center;
   font-size: 14px;
   color: #666666;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+hr {
+  color: black;
+  border: 4px solid black;
 }
