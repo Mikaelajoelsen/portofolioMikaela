@@ -98,7 +98,6 @@ h3 {
 
 .about-info {
   display: flex;
-  font-size: 15px;
   justify-content: center;
   background-color: #333;
   height: 500px;
@@ -110,7 +109,7 @@ h3 {
   justify-items: center;
   align-content: center;
   max-width: 60rem;
-  font-size: 30px;
+  font-size: 15px;
   color: #fff;
 }
 
